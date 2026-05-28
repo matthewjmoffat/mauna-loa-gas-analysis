@@ -10,7 +10,7 @@ library(GGally)
 library(psych)
 
 # ====> IMPORTING <====
-dataset <- read.csv("/Users/matthewmoffat/Documents/Durham/Epiphany term/DEVUL/Assignments/Assignment 2/MaunaLoa_miss.csv")
+dataset <- read.csv("MaunaLoa_miss.csv")
 names(dataset)
 
 # ============> POINT 1: DISTRIBUTIONS <============
